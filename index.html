@@ -1,293 +1,259 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Kurzgesagt Landing Page</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	<title>Laura Marsh Website</title>
+	<meta name="author" content="Laura Marsh">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#top">KURZGESAGT</a>
+	<header class="header nav-fixed">
+		<nav class="nav">
+			<ul>
+				<li><strong><a href="#About"> about </a></strong></li>
+				<li><strong><a href="#Education"> education </a></strong></li>
+				<li><strong><a href="#Experience"> experience </a></strong></li>
+				<li><strong><a href="#Contact"> contact </a></strong></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="Home" class="home">
+		<div class="text-vertical-center">
+			<h1 class="title">Laura Marsh</h1>
+			<br>
+			<br>
+			<a href="#About" class="button button-empty button-empty_one"><strong>about</strong></a>
+			<a href="#Education" class="button button-empty button-empty_two"><strong>education</strong></a>
+			<a href="#Experience" class="button button-empty button-empty_three"><strong>experience</strong></a>
+			<a href="#Contact" class="button button-empty button-empty_four"><strong>contact</strong></a>
+		</div>
+	</section>
+
+	<section id="About" class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-full text-center">
+					<img class="profile" src="me2.jpg">
+					<h2>About me,</h2>
+					<p class="summary">
+						I'm a starry eyed young programmer on a quest to apply all this
+						college-knowledge to more professional settings. My short term goals
+						are to ably afford both a Netflix subscription and an Amazon Prime
+						account at the same time, but besides that I want to find a team/project
+						that excites me.  I currently have experience in front-end web
+						development, but I'm eager to see how I can expand my skillset. My
+						long term goals are to one day be a technically respected manager -
+						to work with people making products for people.
+					</p>
+					<a href="Resume 2017 Nov.pdf" class="button button-filled">Resume</a>
+					<a href="mailto:la.ly.marsh@gmail.com" target="_top" class="button button-filled">Send Mail</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="Education" class="education bg-orange">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-full">
+					<h2>Education</h2>
+					<hr class="small">
+					<div class="row">
+						<div>
+              <div class="education-item">
+                <p><b>B.S. in Software Engineering</b><br><br>University of California, Irvine<br>June, 2018</p>
+              </div>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">ABOUT</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">SERVICES</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">PORTFOLIO</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">CONTACT</a>
-                    </li>
-                </ul>
+            <div>
+              <div class="education-item">
+                <p>
+									<b>Relevant Courses:</b><br>
+									<br>Programming in Python, Java, C++
+									<br>Data Structures
+									<br>Algorithms Analysis
+									<br>Computer Networks
+									<br>Software Testing & QA
+									<br>Software Design & Implementation
+									<br>Intro to Product Management
+									<br>User interaction Software
+								</p>
+              </div>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>KURZGESAGT</h1>
-            <br>
-            <a href="#about" class="btn btn-info btn-lg">Get Started</a>
-        </div>
-    </header>
-
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About Kurzgesagt</h2>
-                    <p class="lead">Kurzgesagt (German for „<b>in a nutshell</b>“) is a Munich based youtube channel and design studio with a distinctive perspective on design, color and story telling.</p>
-                </div>
+            <div>
+              <div class="education-item">
+                <p><b>Member of</b><br><br>Theta Tau<br>(a professional<br>engineering fraternity),<br>Computer Science Student Council</p>
+              </div>
             </div>
-            <!-- /.row -->
+          </div>
         </div>
-        <!-- /.container -->
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Services</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-youtube-play fa-stack-1x text-primary"></i>
-                            </span>
-                                <p>4,101,932 Subscribers.<br>237,112,940 Views.</p>
-                                <a href="https://www.youtube.com/user/Kurzgesagt" class="btn btn-info btn-outline btn-lg">YOUTUBE</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-home fa-stack-1x text-primary"></i>
-                            </span>
-                                <p>Discover and explore the <br> universe.</p>
-                                <a href="http://kurzgesagt.org/"  class="btn btn-info btn-outline btn-lg">WEB</a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-usd fa-stack-1x text-primary"></i>
-                            </span>
-                                <p>Share your passion and help<br>support Kurzgesagt's mission.</p>
-                                <a href="https://www.patreon.com/Kurzgesagt" class="btn btn-info btn-outline btn-lg">PATREON</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+	<section id="Experience" class="exp">
+    <div class="col text-vertical-center">
+			<br>
+			<div class="col-left">
+				<h2 class="col-left_title">Projects &larr;</h2>
+				<div class="exp-item">
+		      <h3>Kurzgesagt Landing Page</h3>
+					<img src="kurz.png">
+					<h5>
+						<p>
+							A small landing page I created for a Youtube series I adore called
+							‘Kurzgesagt’.  I used this page to practice programming with basic
+							Javascript and many popular web-design techniques and frameworks such as
+							mobile-first web-design, Bootstrap, and combining online templates.
+						</p>
+						<a href="https://github.com/lauramarsh/kurzgesagtLandingPage.git" class="button button-filled button-arrow">
+							&rarr;
+						</a>
+						<div class="text-vertical-center exp-left">
+							<p class="button button-filled_exp"><strong>HTML</strong></p>
+							<p class="button button-filled_exp"><strong>CSS</strong></p>
+							<p class="button button-filled_exp"><strong>JavaScript</strong></p>
+						</div>
+					</h5>
+				</div>
+				<div class="exp-item">
+		      <h3>Multithreaded Elevator Simulator</h3>
+					<h5>
+						<p>
+							A small project dedicated to understanding multi-threading in Java.
+							This program simulates 5 elevators (as threads) inside a building,
+							picking up and dropping off pedestrians on random input intervals.
+						</p>
+						<div class="text-vertical-center exp-left">
+							<p class="button button-filled_exp"><strong>Java</strong></p>
+						</div>
+					</h5>
+				</div>
+				<div class="exp-item">
+		      <h3>Mapquest Simulator</h3>
+					<h5>
+						<p>
+							A simple terminal-run program that displays information about a
+							journey  from input location A to input location B using the Open
+							MapQuest API.  The project displays  a trip's step-by-step directions
+							and total estimated duration, among other characteristics.  Inputs
+							are real-life destinations, and information outputted is realistic
+							and accurate to the MapQuest API.
+						</p>
+						<div class="text-vertical-center exp-left">
+							<p class="button button-filled_exp"><strong>Python</strong></p>
+						</div>
+					</h5>
+				</div>
+			</div>
+    </div>
+		<div class="col text-vertical-center">
+			<br>
+			<div class="col-right">
+				<h2 class="col-right_title">&rarr; Work</h2>
+				<div class="exp-item">
+		      <h3>Front End Web Dev Intern</h3>
+					<h4>TenantBase</h4>
+					<img src="tenantbase.png">
+					<h5>
+						<p>
+							I worked on Search Engine Optimization for tenantbase.com by
+							improving market pages to be more efficient/noticeable to the Google
+							crawler.  I familiarized myself with various web frameworks,
+							applied database queries, and caching practices in Python.
+						</p>
+						<a href="https://www.tenantbase.com/" class="button button-filled button-arrow">
+							&rarr;
+						</a>
+						<div class="text-vertical-center exp-right">
+							<p class="button button-filled_exp"><strong>Python</strong></p>
+							<p class="button button-filled_exp"><strong>HTML</strong></p>
+							<p class="button button-filled_exp"><strong>CSS</strong></p>
+							<p class="button button-filled_exp"><strong>JavaScript</strong></p>
+							<p class="button button-filled_exp"><strong>Django</strong></p>
+							<p class="button button-filled_exp"><strong>Sublime Text 2</strong></p>
+							<p class="button button-filled_exp"><strong>Git</strong></p>
+							<p class="button button-filled_exp"><strong>VirtualBox</strong></p>
+						</div>
+					</h5>
+				</div>
+				<div class="exp-item">
+		      <h3>Android OS Dev</h3>
+					<h4>Inwerks</h4>
+					<img class="exp-item_small" src="inwerks.png">
+					<h5>
+						<p>
+							<small>Java, Android Studio, Ubuntu</small><br>
+							I developed the Android OS version of the Inwerks application by
+							modifying & debugging existing code to correct previous errors,
+							upgrading the user interface, and improving overall look and performance.
+							I researched and used various outside APIs to enhance app functionality.
+						</p>
+						<div class="text-vertical-center exp-right">
+							<p class="button button-filled_exp"><strong>Java</strong></p>
+							<p class="button button-filled_exp"><strong>Android Studio</strong></p>
+							<p class="button button-filled_exp"><strong>Ubuntu</strong></p>
+						</div>
+					</h5>
+				</div>
+				<div class="exp-item">
+		      <h3>Firmware QA Intern</h3>
+					<h4>Dell/EMC DSSD</h4>
+					<img class="exp-item_small" src="dellemc.jpg">
+					<h5>
+						<p>
+							<small>Python, Sublime Text 2, Git, Raspberry Pi, Ubuntu</small><br>
+							I adapted existing programming to new hardware and improved overall
+							test performance by working closely with experienced team members.
+							I performed system-level testing and debugging to verify quality and
+							function, and researched  various testing techniques to ensure
+							product functionality.
+						</p>
+						<a href="https://www.dellemc.com/en-us/index.htm" class="button button-filled button-arrow">
+							&rarr;
+						</a>
+						<div class="text-vertical-center exp-right">
+							<p class="button button-filled_exp"><strong>Python</strong></p>
+							<p class="button button-filled_exp"><strong>Sublime Text 2</strong></p>
+							<p class="button button-filled_exp"><strong>Git</strong></p>
+							<p class="button button-filled_exp"><strong>Raspberry Pi</strong></p>
+							<p class="button button-filled_exp"><strong>Ubuntu</strong></p>
+						</div>
+					</h5>
+				</div>
+			</div>
+    </div>
+	</section>
 
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h2><i>"We are a small team of like minded people<br>who want to make science look beautiful."</i><br>- Kurzgestagt Team</h1>
-        </div>
-    </aside>
+	<footer id="Contact" class="footer">
+		<div class="footer-right">
+			<a href="https://www.linkedin.com/in/laura-marsh-78803688/" class="linkedin">
+				<img src="linkedin.png">
+			</a>
+			<a href="https://github.com/lauramarsh" class="github">
+				<img src="github.png">
+			</a>
+		</div>
+		<div class="footer-left">
+			<h1>Laura Marsh</h1>
+			<h3>la.ly.marsh@gmail.com</h3>
+			<h3><a href="research.html">Personal Site Research</a></h3>
+		</div>
+	</footer>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Works</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://www.youtube.com/watch?v=jAhjPd4uNFY" target="_blank">
-                                    <img class="img-portfolio img-responsive" src="img/designerbabies.jpg" data-video="https://www.youtube.com/watch?v=jAhjPd4uNFY">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://www.youtube.com/watch?v=ZL4yYHdDSWs&t=200s" target="_blank">
-                                    <img class="img-portfolio img-responsive" src="img/limitsofhumanity.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://www.youtube.com/watch?v=dGiQaabX3_o" target="_blank">
-                                    <img class="img-portfolio img-responsive" src="img/humanorigins.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="https://www.youtube.com/watch?v=ao8L-0nSYzg&t=225s" target="_blank">
-                                    <img class="img-portfolio img-responsive" src="img/addiction.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a href="https://www.youtube.com/user/Kurzgesagt/videos" target="_blank" class="btn btn-info btn-lg">View All</a>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-
-    <!-- Footer -->
-    <footer>
-        <div id="contact" class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
-                    </h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Highlight the top nav as scrolling occurs
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: 51
-    });
-    // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function() {
-        $('.navbar-toggle:visible').click();
-    });
-    // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    //#to-top button appears after scrolling
-    var fixed = false;
-    $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
-                $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
-                });
-            }
-        } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
-        }
-    });
-    </script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+		$('a[href^="#"]').on('click', function(event) {
+			var target = $(this.getAttribute('href'));
+		  if( target.length ) {
+				event.preventDefault();
+		    $('html, body').stop().animate({
+					scrollTop: target.offset().top
+				}, 1000);
+			}
+		});
+	</script>
 
 </body>
 
